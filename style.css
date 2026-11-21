@@ -1,0 +1,26 @@
+body{
+    background:linear-gradient(to left, silver, gold, blue, red, purple, yellow, pink);
+}
+
+div{
+    height:620px;
+    width:1000px;
+    border:3px solid black;
+}
+
+#first{
+    background:linear-gradient(to left, silver, gold, red, blue);
+    text-align:center;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:600;
+}
+#rock,#paper,#scissor {
+    width:250px;
+    height:250px;
+    margin:20px;
+    cursor:pointer;
+}
+#result{
+    color: green;
+}
